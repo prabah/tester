@@ -1,0 +1,37 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="7D191777-E224-4086-A8D1-08E928767479/d:Releases/f:ReleaseEntity.cs" caret="191" fromTop="5" />
+    <File id="B65DD02D-7B83-4A6F-AF22-3D82487E37ED/f:Program.cs" caret="718" fromTop="22" />
+    <File id="F7A445A0-A597-4567-A9D2-E3329F168C66/f:Web.config" caret="3548" fromTop="0" />
+    <File id="37F5AFCB-3646-4C7B-94F6-A8AC5F5AED34/f:IReleaseRepository.cs" caret="0" fromTop="0" />
+    <File id="37F5AFCB-3646-4C7B-94F6-A8AC5F5AED34/f:IRelease.cs" caret="324" fromTop="16" />
+    <File id="7FF75C35-7057-4E29-B67D-6DC18C711362/f:Release.cs" caret="191" fromTop="8" />
+    <File id="7FF75C35-7057-4E29-B67D-6DC18C711362/f:ReleaseLogic.cs" caret="227" fromTop="0" />
+    <File id="7FF75C35-7057-4E29-B67D-6DC18C711362/f:IReleaseLogic.cs" caret="0" fromTop="0" />
+    <File id="AB9D260F-7213-4FEF-8576-2468144587FA/f:DataLayer.cs" caret="603" fromTop="13" />
+    <File id="AB9D260F-7213-4FEF-8576-2468144587FA/f:LogicLayer.cs" caret="0" fromTop="0" />
+    <File id="F7A445A0-A597-4567-A9D2-E3329F168C66/d:App_Start/f:NinjectWebCommon.cs" caret="2478" fromTop="32" />
+    <File id="F7A445A0-A597-4567-A9D2-E3329F168C66/d:Controllers/f:DistributorController.cs" caret="597" fromTop="20" />
+    <File id="7FF75C35-7057-4E29-B67D-6DC18C711362/f:IDistributorLogic.cs" caret="279" fromTop="12" />
+    <File id="F7A445A0-A597-4567-A9D2-E3329F168C66/d:Views/d:Distributor/f:Index.cshtml" caret="0" fromTop="0" />
+    <File id="7FF75C35-7057-4E29-B67D-6DC18C711362/f:DistributorLogic.cs" caret="2776" fromTop="0" />
+    <File id="7D191777-E224-4086-A8D1-08E928767479/f:TableOperations.cs" caret="0" fromTop="0" />
+    <File id="7D191777-E224-4086-A8D1-08E928767479/d:Products/f:ProductEntity.cs" caret="194" fromTop="6" />
+    <File id="7D191777-E224-4086-A8D1-08E928767479/d:Products/f:ProductRepository.cs" caret="2308" fromTop="21" />
+    <File id="37F5AFCB-3646-4C7B-94F6-A8AC5F5AED34/f:IProduct.cs" caret="0" fromTop="0" />
+    <File id="F7A445A0-A597-4567-A9D2-E3329F168C66/d:Controllers/f:HomeController.cs" caret="2653" fromTop="0" />
+    <File id="7FF75C35-7057-4E29-B67D-6DC18C711362/f:HistoryLogic.cs" caret="0" fromTop="0" />
+    <File id="7D191777-E224-4086-A8D1-08E928767479/f:Utilities.cs" caret="512" fromTop="14" />
+    <File id="7D191777-E224-4086-A8D1-08E928767479/d:Releases/f:ReleaseRepository.cs" caret="2827" fromTop="18" />
+    <File id="F7A445A0-A597-4567-A9D2-E3329F168C66/d:Mailers/f:UserMailer.cs" caret="807" fromTop="30" />
+    <File id="F7A445A0-A597-4567-A9D2-E3329F168C66/d:Views/d:Account/f:ActivationRequest.cshtml" caret="360" fromTop="13" />
+    <File id="F7A445A0-A597-4567-A9D2-E3329F168C66/d:Views/d:Account/f:ConfirmDistributorToken.cshtml" caret="474" fromTop="20" />
+    <File id="F7A445A0-A597-4567-A9D2-E3329F168C66/d:Views/d:Account/f:ActivationSuccess.cshtml" caret="0" fromTop="0" />
+    <File id="F7A445A0-A597-4567-A9D2-E3329F168C66/d:Views/d:Account/f:ActivationError.cshtml" caret="0" fromTop="0" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="7D191777-E224-4086-A8D1-08E928767479/d:Products/f:ProductRepository.cs" caret="2" fromTop="0" />
+    <File id="F7A445A0-A597-4567-A9D2-E3329F168C66/d:Mailers/f:UserMailer.cs" caret="848" fromTop="32" />
+    <File id="F7A445A0-A597-4567-A9D2-E3329F168C66/d:Views/d:Account/f:ActivationRequest.cshtml" caret="52" fromTop="4" />
+  </RecentEdits>
+</RecentFiles>

@@ -1,0 +1,40 @@
+﻿@model Malden.Portal.BLL.Distributor
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+@if (Model == null) { return; }
+
+<div class="list">
+    <table width="400">
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.Email)</td>
+            <td>@Html.DisplayFor(model => model.Email)</td>
+        </tr>
+
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.Token)</td>
+            <td>@Html.DisplayFor(model => model.Token)</td>
+        </tr>
+
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.IsRegistered)</td>
+            <td>@Html.DisplayFor(model => model.IsRegistered)</td>
+        </tr>
+
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.IsActivated)</td>
+            <td>@Html.DisplayFor(model => model.IsActivated)</td>
+        </tr>
+
+    </table>
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    <a href=@String.Format("mailto:{0}?Subject={1}&body={2}", Model.Email, "Malden%20Maintenance%20Portal", "Token:" + Model.Token)>Send Join Request</a> |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,33 @@
+﻿@using Ninject;
+@{
+    var kernel = Malden.Portal.GUI.Azure.Webrole.App_Start.NinjectWebCommon.kernelObject;
+    var userLogic = kernel.Get<Malden.Portal.BLL.IUserLogic>();
+    var user = userLogic.User(User.Identity.Name);
+
+    if (user != null && user.TypeOfUser == Malden.Portal.BLL.User.UserType.Admin)
+    {
+        <nav id="menuPrimary" class="menu">
+            <ul>
+                <li>@Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.AdminOnlyMenu(this.Html, "Home", "Activity", "Index"))</li>
+                <li>
+                    <a href="#">System Maintenance</a>
+                    <ul>
+                        <li>@Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.AdminOnlyMenu(this.Html, "Product", "Manage Products", "Index"))</li>
+                        <li>@Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.AdminOnlyMenu(this.Html, "Release", "Manage Releases", "Index"))</li>
+                        <li>@Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.AdminOnlyMenu(this.Html, "Maintenance", "Manage Maintenance Contracts", "Index"))</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Users</a>
+                    <ul>
+                        <li>@Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.AdminOnlyMenu(this.Html, "Account", "Customers", "Index"))</li>
+                        <li>@Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.AdminOnlyMenu(this.Html, "Distributor", "Distributors", "Index"))</li>
+                        <li>@Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.AdminOnlyMenu(this.Html, "Account", "Administrators", "Administrators"))</li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+
+    }
+}

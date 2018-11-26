@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<products>
+	<product id="4A916225-B064-3F27-7B0E-692982EDF073" name="MultiDSLA" description="MultiDSLA" />
+	<product id="FFF4C424-F3B3-607F-818C-51B4FF86F6CF" name="ScalableVN" description="ScalableVN" />
+	<product id="FDE68D1B-B586-4E95-FFC3-06C12FFAEA0D" name="Product 1" description="Product 1" />
+	<product id="ED0286AF-B2D3-CAE6-3115-731A91C2D8FB" name="Product 2" description="Product 2" />
+	<product id="E41C6C8B-5EF4-8547-1788-4AB395246FD4" name="Product 3" description="Product 3" />
+  <!--<product id="3e6abe25-520c-4288-89b6-cf7506d9b8f0" name="Product 4" description="Product 4" />-->
+</products>

@@ -1,0 +1,472 @@
+﻿@font-face {
+    font-family: HelveticaNeue;
+    src: url('fonts/HelveticaNeue.ttf') format('truetype');
+    src: url(fonts/helveticaneue-webfont.eot) format('embedded-opentype');
+    src: url(fonts/helveticaneue-webfont.woff) format('woff');
+}
+
+//Version ??
+//Created on 24-September-2013
+
+// Variable declarations - start
+@labelLength: 140px;
+@marginRight: 50px;
+@contentWidth: 800px;
+@rightAlignedMargin: 44px;
+@inputBoxWidth: (@contentWidth * 10/100);
+@paddingAndMargin_Body: 15px;
+
+@totalUsedSpace: @labelLength + @marginRight + @rightAlignedMargin + @inputBoxWidth + @paddingAndMargin_Body;
+
+@calculatedRightAlignedMargin: 330px;
+
+@backgroundColor: #258cef;
+// Variable declarations - end
+
+//1.0 ---> Custom Styles for page elements
+//2.0 ---> Validation error messages
+
+//1.0
+body, html {
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+.active {
+    color: #000;
+    background-color: aliceblue;
+}
+
+.releases {
+    width: 100px;
+}
+
+.releaseAvailability, .list table th.releaseAvailability {
+    text-align: center;
+}
+
+.login {
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: central;
+}
+
+.right-aligned {
+    padding-top: 15px;
+    text-align: right;
+    margin-right: @rightAlignedMargin; //@calculatedRightAlignedMargin;
+}
+
+.right-aligned a {
+    margin-right: 8px;
+    color: @backgroundColor;
+    font-size: 1.125em;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.editor input[type="text"] {
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    color: #333;
+    margin: 5px 0 6px 0;
+    padding: 5px;
+    width: 480px;
+}
+
+.editor select {
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    color: #333;
+    margin: 5px 0 6px 0;
+    padding: 5px;
+    width: 480px;
+}
+
+.editor #releaseDate {
+    width: 150px;
+}
+
+.editor-label {
+    padding-bottom: 5px;
+}
+
+#RegistrationCode {
+    width: 140px;
+}
+
+/*#registeredProducts
+{
+    height: 400px;
+    overflow:scroll;
+}*/
+
+.arrowOldRelease {
+    background: url("images/more-arrow.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 20px;
+    margin-top: -20px;
+    position: absolute;
+    right: 8px;
+    width: 20px;
+}
+
+a:visited {
+    opacity: 0.8;
+}
+
+.product {
+    color: #258cef;
+    font-weight: bold;
+}
+
+.breadCrumb {
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.downloadRelease, .malden-button {
+    position: relative;
+    padding: 8px 8px 8px 16px;
+    color: #fff;
+    font-size: .75em;
+    line-height: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.50);
+    background: #ffb42c;
+    background: -moz-linear-gradient(top, #ffb42c 0%, #ff8c20 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb42c), color-stop(100%,#ff8c20));
+    background: -webkit-linear-gradient(top, #ffb42c 0%,#ff8c20 100%);
+    background: -o-linear-gradient(top, #ffb42c 0%,#ff8c20 100%);
+    background: -ms-linear-gradient(top, #ffb42c 0%,#ff8c20 100%);
+    border: 1px solid #d16d00;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+}
+
+.malden-button {
+    text-align: center;
+}
+
+.archiveLink-Cell {
+    text-align: right;
+}
+
+.releasenotes {
+    position: relative;
+    width: 100px;
+    display: block;
+    padding: 8px 8px 8px 16px;
+    color: #fff;
+    font-size: .75em;
+    line-height: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.50);
+    background: #7BC22A;
+    background: -moz-linear-gradient(top, #7BC22A 0%, #5FA812 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7BC22A), color-stop(100%,#5FA812));
+    background: -webkit-linear-gradient(top, #7BC22A 0%,#5FA812 100%);
+    background: -o-linear-gradient(top, #7BC22A 0%,#5FA812 100%);
+    background: -ms-linear-gradient(top, #7BC22A 0%,#5FA812 100%);
+    border: 1px solid #58a007;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+}
+
+.downloadReleaseOld1 {
+    position: relative;
+    margin: 20px 0px 0px 0px;
+    padding: 8px 52px 8px 16px;
+    color: #fff;
+    font-size: .8em;
+    line-height: 18px;
+    font-weight: bold;
+    -webkit-text-shadow: 1px 1px 1px rgba(0,0,0,0.50);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.50);
+    background: #ffb42c;
+    background: -moz-linear-gradient(top, #ffb42c 0%, #ff8c20 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb42c), color-stop(100%,#ff8c20));
+    background: -webkit-linear-gradient(top, #ffb42c 0%,#ff8c20 100%);
+    background: -o-linear-gradient(top, #ffb42c 0%,#ff8c20 100%);
+    background: -ms-linear-gradient(top, #ffb42c 0%,#ff8c20 100%);
+    border: 1px solid #d16d00;
+    border-radius: 15px;
+    width: 125px;
+    /*padding: 7px;*/
+}
+
+a.releasenotes span.arrowOldRelease {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url("images/note-arrow.png") no-repeat scroll 0px 0px transparent;
+}
+
+/*input[type="submit"] {
+    position: relative;
+    margin: 20px 0px 0px 0px;
+    padding: 8px 52px 8px 16px;
+    color: #fff;
+    font-size: .75em;
+    line-height: 18px;
+    font-weight: bold;
+    -webkit-text-shadow: 1px 1px 1px rgba(0,0,0,0.50);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.50);
+    background: #ffb42c;
+    background: -moz-linear-gradient(top, #ffb42c 0%, #ff8c20 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb42c), color-stop(100%,#ff8c20));
+    background: -webkit-linear-gradient(top, #ffb42c 0%,#ff8c20 100%);
+    background: -o-linear-gradient(top, #ffb42c 0%,#ff8c20 100%);
+    background: -ms-linear-gradient(top, #ffb42c 0%,#ff8c20 100%);
+    border: 1px solid #d16d00;
+    border-radius: 15px;
+    width: 125px;
+    padding: 7px;
+    margin-right: 8px;
+}*/
+
+fieldset {
+    border: 0;
+    width: @contentWidth;
+    min-height: 600px;
+    margin-left: -9px;
+}
+
+legend {
+    padding: 0.2em 0.5em;
+    border: none;
+    font-size: 0.875em;
+    text-align: right;
+}
+
+ol li {
+    text-align: left;
+}
+
+ol li label {
+    width: @labelLength;
+    display: inline-block;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
+    margin-right: @marginRight;
+}
+
+ol li input[type="text"] {
+    margin-right: 0;
+    display: inline-block;
+}
+
+ol li input[type="submit"] {
+    position: relative;
+    padding: 8px;
+    color: #fff;
+    font-size: .75em;
+    line-height: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.50);
+    background: #ffb42c;
+    background: -moz-linear-gradient(top, #ffb42c 0%, #ff8c20 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb42c), color-stop(100%,#ff8c20));
+    background: -webkit-linear-gradient(top, #ffb42c 0%,#ff8c20 100%);
+    background: -o-linear-gradient(top, #ffb42c 0%,#ff8c20 100%);
+    background: -ms-linear-gradient(top, #ffb42c 0%,#ff8c20 100%);
+    border: 1px solid #d16d00;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    margin-top: 0px;
+    margin-left: 10px;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+}
+
+.arrow {
+    position: absolute;
+    margin-top: -19px;
+    right: 12px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url(images/more-arrow.png) no-repeat 0 0;
+}
+
+.arrow-notes {
+    position: absolute;
+    margin-top: -19px;
+    right: 12px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url(images/note-arrow.png) no-repeat 0 0;
+}
+
+input, textarea, select {
+    position: relative;
+    padding: 8px;
+    line-height: 18px;
+    font-size: 1em;
+    display: inline-block;
+    width: 480px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #7ac0da;
+}
+
+input[type="checkbox"] {
+    background: transparent;
+    border: inherit;
+    width: auto;
+}
+
+#footer-search input#searchsubmit {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 5;
+    overflow: hidden;
+    width: 30px;
+    height: 25px;
+    border: 0;
+    background: #fff url(images/search-submit.jpg) no-repeat 0 -5px;
+    text-indent: -9999px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.user-input {
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    color: #333;
+    margin: 5px 0 6px 0;
+    padding: 5px;
+    width: 480px;
+}
+//2.0
+.error {
+    color: #e80c4d;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #e80c4d;
+    font-weight: bold;
+}
+
+.field-validation-valid {
+    display: none;
+    font-size: 0.875em;
+}
+
+input.input-validation-error {
+    border: 1px solid #e80c4d;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #e80c4d;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/*#login {
+    width: 200px;
+    float: right;
+    background-color: silver;
+    text-align: right;
+}*/
+
+//Product registration
+.register {
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.older-version {
+    color: black;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+#userproducts {
+    border-collapse: collapse;
+    width: 70%;
+    font-size: .875em;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.66);
+    color: #383838;
+}
+
+.odd-rows {
+    background-color: #F0F0F0;
+}
+
+#content {
+    min-height: 700px;
+}
+
+#authentication-panel {
+    width: 60%;
+    float: right;
+    text-align: right;
+    font-size: 0.8em;
+}
+
+.list table {
+    width: 100%;
+    font-size: 92%;
+    border-collapse: collapse;
+}
+
+.list table th {
+    text-align: left;
+    font-weight: bold;
+}
+
+.list table td.last-cell {
+    text-align: right;
+}
+
+.list {
+    margin-bottom: 10px;
+}
+
+.iso, .firmware, .msi, .notes {
+    margin-left: 0px;
+    float: left;
+    width: 200px;
+    margin-top: 0px;
+}

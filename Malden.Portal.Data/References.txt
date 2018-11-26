@@ -1,0 +1,6 @@
+﻿//Returns the whole set of rows
+private CloudTableQuery<ProductSerialNumberEntity> ProductSerialNumberQuery(TableServiceContext context)
+{
+    return context.CreateQuery<ProductSerialNumberEntity>(Tables.ProductSerialNumbers).AsTableServiceQuery();
+
+}

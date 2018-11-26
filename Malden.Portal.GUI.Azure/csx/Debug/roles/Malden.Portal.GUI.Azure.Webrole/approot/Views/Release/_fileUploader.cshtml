@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "UploadFile";
+}
+<div class="editor">
+    @Html.Label("File type: ")
+    @Html.DropDownList("fileType", (SelectList)ViewBag.FileTypes, "Please select")
+    <link href="~/Content/themes/base/jquery.ui.progressbar.css" rel="stylesheet" />
+    <input type="file" id="selectFile" name="selectFile" multiple="multiple" />
+    <input type="submit" name="fileUpload" id="fileUpload" value="Upload" class="malden-button" />
+</div>
+<ul data-bind="foreach: uploaderCollection">
+    <li style="list-style:none">
+        <div class="progressBar" style="width: 50%; height: 20px; background-color: grey" 
+            data-bind="attr: { id: 'progressBar' + fileIndex }"></div>
+        <label data-bind="attr: { id: 'statusMessage' + fileIndex }"></label>
+    </li>
+</ul>
+<label id="statusMessageLabel"></label>

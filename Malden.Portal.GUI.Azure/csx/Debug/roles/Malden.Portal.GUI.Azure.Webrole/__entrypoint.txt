@@ -1,0 +1,1 @@
+bin\Malden.Portal.GUI.Azure.Webrole.dll

@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Filter";
+}
+
+<h2>Filter</h2>
+
+@using (Html.BeginForm("Filer", "Home"))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+
+    
+}

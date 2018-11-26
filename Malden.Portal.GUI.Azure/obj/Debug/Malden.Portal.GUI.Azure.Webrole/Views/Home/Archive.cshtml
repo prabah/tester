@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Malden.Portal.BLL.Release>
+
+@{
+    ViewBag.Title = "Archive";
+}
+
+<p>@Html.ActionLink("Home", "Index", "Home", new { @class = "breadCrumb" }) > Archive</p>
+
+<h3 class="product">Archive - @ViewBag.ProductName</h3>
+<span id="user"></span>
+
+@Html.Partial("_OldReleases", this.Model)

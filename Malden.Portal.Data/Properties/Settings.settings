@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Malden.Portal.Data.TableStorage.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DebugConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">UseDevelopmentStorage=true</Value>
+    </Setting>
+    <Setting Name="PrivatePortalConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DefaultEndpointsProtocol=https;AccountName=maldendemo;AccountKey=tG5mp8Rd5017eB4loqRCLQzCWQ54OKJCl3QSGvjZz2gp6ycDi2zwvBnrCqehRZhnJOQuA49O5QA0UkJaXfW6Ug==</Value>
+    </Setting>
+    <Setting Name="LiveConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DefaultEndpointsProtocol=https;AccountName=swmel;AccountKey=adea5aZ1m4li87GSfGEgPF6qFmZRCrRUSC3mSAuab4sULa93rIHzle4WLRDDJPa+DFtG4+if+fAOZPdyXiNWVQ==</Value>
+    </Setting>
+    <Setting Name="BlobCacheControlValue" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1051200</Value>
+    </Setting>
+    <Setting Name="LiveDbName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">swmel</Value>
+    </Setting>
+    <Setting Name="PrivatePortalCDNEndPoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://az649978.vo.msecnd.net</Value>
+    </Setting>
+    <Setting Name="LiveCDNEndPoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://upgrades.malden.co.uk</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

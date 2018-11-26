@@ -1,0 +1,37 @@
+﻿@model Malden.Portal.GUI.Azure.Webrole.Models.ReleaseViewModel
+
+@{
+    ViewBag.Title = "Details of Release";
+}
+
+<h2>Details</h2>
+<div class="list">
+    <table>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.ProductId)</td>
+            <td>@Html.DisplayFor(model => model.ProductId)</td>
+        </tr>
+
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.ProductName)</td>
+            <td>@Html.DisplayFor(model => model.ProductName)</td>
+        </tr>
+
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.VersionString)</td>
+            <td>@Html.DisplayFor(model => model.VersionString)</td>
+        </tr>
+
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.IsHidden)</td>
+            <td>@Html.DisplayFor(model => model.IsHidden)</td>
+        </tr>
+
+    </table>
+</div>
+
+<p>
+    @Html.ActionLink("Manage Images", "Upload", new { id = Model.Release.Id }) |
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Release.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,57 @@
+﻿@model Malden.Portal.BLL.MaintenanceContract
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset class="editor">
+        <legend>Product</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SerialNumber)
+        </div>
+        <div class="editor-field">
+            @*@Html.DropDownList("SerialNumbers", (List<SelectListItem>)@ViewBag.SerialNumbers,"Please select", new {onchange = "getAlldata()"})*@
+            @Html.TextBoxFor(model => model.SerialNumber, null, new { onchange = "getAlldata()" })
+            @Html.ValidationMessageFor(model => model.SerialNumber)
+        </div>
+
+        <div id="maintain">
+            <div id="ProductDetails">
+                @Html.Label("Product:", new { id = "ProductName" })
+            </div>
+
+            <div id="maintenance">
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.DateOfExpiry)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.DateOfExpiry)
+                    @Html.ValidationMessageFor(model => model.DateOfExpiry)
+                </div>
+            </div>
+
+            <p>
+                <input type="submit" value="Create" id="createMaintenance" class="malden-button" />
+            </p>
+        </div>
+    </fieldset>
+
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script src="~/Scripts/Custom/custom-functions.js?v=15414"></script>
+}

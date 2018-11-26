@@ -1,0 +1,115 @@
+﻿@model Malden.Portal.GUI.Azure.Webrole.Models.ReleaseViewModel
+
+@{
+    ViewBag.Title = "Edit Release";
+}
+
+<h2>Edit</h2>
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+ @Html.HiddenFor(model => model.Id)   
+<div class="list">
+    <table class="editor">
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.ProductName)
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.Release.DateOfRelease)
+            </td>
+            <td>
+                @{
+                    var releaseDate = String.Format("{0:dd-MMM-yyyy}", Model.Release.DateOfRelease);
+                    @Html.EditorFor(r => releaseDate)
+                }
+            </td>
+            <td>
+                @Html.ValidationMessageFor(model => model.Release.DateOfRelease)
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.VersionString)
+            </td>
+            <td>
+                @Html.EditorFor(model => model.VersionString)
+            </td>
+            <td>
+                @Html.ValidationMessageFor(model => model.VersionString)
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.IsHidden)
+            </td>
+            <td>
+                @Html.EditorFor(model => model.IsHidden)
+            </td>
+            
+        </tr>
+    </table>
+    <p>
+        <input type="submit" value="Save" class="malden-button" />
+    </p>
+</div>
+
+@*@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>ReleaseViewModel</legend>
+
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ProductId)
+        </div>
+        <div class="editor-field">
+            @Html.DisplayFor(model => model.ProductName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Release.DateOfRelease)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Release.DateOfRelease)
+            @Html.ValidationMessageFor(model => model.Release.DateOfRelease)
+        </div>
+
+        
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.VersionString)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.VersionString)
+            @Html.ValidationMessageFor(model => model.VersionString)
+        </div>
+
+        
+        <div class="editor-field">
+            @Html.HiddenFor(model => model.Release.ImageFilePath)
+        </div>
+
+       
+    </fieldset>*@
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

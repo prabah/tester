@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Malden.Portal.BLL.CloudFile>
+
+@{
+    ViewBag.Title = "Upload";
+}
+
+<h2>Upload</h2>
+
+
+
+<div class="list">
+    <h3>@ViewBag.PageTitle</h3>
+    <div class="contents">
+        <table class="table" style="border-collapse: separate;">
+            <thead>
+                <tr>
+                    <td>Type</td>
+                    <td>Name</td>
+                    <td>Size</td>
+                    <td>Download</td>
+                    <td></td>
+                </tr>
+
+            </thead>
+            @foreach (var item in Model)
+            {
+
+                <tr>
+                    <td>@Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.GetEnumDescription(@item.ImageFileType)</td>
+                    <td>@item.FileName</td>
+                    <td>@Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.SizeSuffix(@item.Size)</td>
+                    <td><a href="@item.URL">@item.FileName</a></td>
+                    <td>
+                        <a href="@Url.Action("DeleteImage")" class="deleteReleaseImage" data-id="@item.ContainerName~@item.FileName">Delete</a>
+                    </td>
+                </tr>
+ @*<li>
+            <a href="@item.URL">@item.FileName</a> (@item.Size bytes)
+        </li>*@
+            }
+        </table>
+    </div>
+</div>
+
+
+@Html.Partial("_fileUploader")
+
+@section Scripts {
+    <script src="~/Scripts/jquery-2.1.0.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.10.3.min.js"></script>
+    <script src="~/Scripts/knockout-2.2.0.debug.js"></script>
+    <script src="~/Scripts/Custom/multi-image-uploader.js"></script>
+}
+@Html.Partial("_confirmDialog")
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

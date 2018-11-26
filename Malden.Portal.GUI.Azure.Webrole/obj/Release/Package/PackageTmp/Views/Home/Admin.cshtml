@@ -1,0 +1,73 @@
+﻿@model Malden.Portal.GUI.Azure.Webrole.Models.AdminViewModel
+
+@{
+    var name = ViewBag.userName != null ? ViewBag.userName.ToString() : "";
+
+    <h2>Welcome @name</h2>
+}
+
+<div class="list">
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DownloadHistory.FirstOrDefault().TimeStamp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DownloadHistory.FirstOrDefault().UserEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DownloadHistory.FirstOrDefault().SerialNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DownloadHistory.FirstOrDefault().ImageFileType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DownloadHistory.FirstOrDefault().Version)
+            </th>
+        </tr>
+        @{
+            foreach (var history in Model.DownloadHistory)
+            {
+                <tr>
+                    <td>
+                        @history.TimeStamp.ToString("dd-MMM-yyyy HH:mm:ss")
+                </td>
+                <td>
+                    @history.UserEmail
+                </td>
+                <td>
+                    @history.SerialNumber
+                </td>
+                    <td>
+                        @if (history.ImageFileType > 0)
+                        {
+                            @history.ImageFileType
+                        }
+                    </td>
+                <td>
+                    @history.Version.ToString()
+                </td>
+
+            </tr>
+            }
+
+        }
+    </table>
+
+    <br />
+    <br />
+
+    <table class="table">
+        @{
+            foreach (var val in Model.Conuter)
+            {
+                <tr>
+                    <td>@val.Key</td>
+                    <td>@val.Value</td>
+                </tr>
+            }
+        }
+    </table>
+
+</div>
+

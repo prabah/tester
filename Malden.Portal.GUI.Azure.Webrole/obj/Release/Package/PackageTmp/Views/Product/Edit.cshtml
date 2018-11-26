@@ -1,0 +1,77 @@
+﻿@model Malden.Portal.BLL.Product
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit Product</h2>
+
+@Html.HiddenFor(model => model.Id)
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    <div class="list">
+        <table class="editor">
+            <tr>
+                <td>
+                    @Html.LabelFor(model => model.Name)
+                </td>
+                <td>
+                    @Html.EditorFor(model => model.Name)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.Name)
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    @Html.LabelFor(model => model.FulfilmentId)
+                </td>
+                <td>
+                    @Html.EditorFor(model => model.FulfilmentId)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.FulfilmentId)
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    @Html.LabelFor(model => model.ContainerName)
+                </td>
+                <td>
+                    @Html.EditorFor(model => model.ContainerName)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.ContainerName)
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    @Html.LabelFor(model => model.IsMaintained)
+                </td>
+                <td>
+                    @Html.EditorFor(model => model.IsMaintained)
+                </td>
+            </tr>
+
+        </table>
+
+        <p>
+            <input type="submit" value="Save" class="malden-button" />
+        </p>
+    </div>
+
+}
+
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

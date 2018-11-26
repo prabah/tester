@@ -1,0 +1,121 @@
+﻿@model IEnumerable<Malden.Portal.BLL.UserPurchase>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@{
+    var name = ViewBag.userName != null ? ViewBag.userName.ToString() : "";
+
+    <h2>Welcome @name</h2>
+}
+
+@if (Model != null )
+{
+<div>
+    <span id="user"></span>
+    @if (Model.Count() > 0)
+    {
+        <h3>Registered products:</h3>
+    }
+
+    <div id="registeredProducts">
+        <table id="userproducts" style="width: 100%;">
+            @if (Model.Count() > 0)
+            {
+                <thead style="font-weight: bold; font-size: 1.125em;">
+                    <tr>
+                        <th style="text-align: left;">Product</th>
+                        <th style="text-align: left;">Serial Number</th>
+                        <th colspan="3" style="text-align: left;">Software Updates</th>
+                    </tr>
+                </thead>
+            }
+            @foreach (var item in Model)
+            {
+                <tr style="height: 50px;">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Product.Name)
+                    </td>
+                    <td class="serial">@Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.MD5SerialNumber(item.SerialNumber))</td>
+
+
+                    @if (item.AvailableRelease != null)
+                    {
+
+                        var imageFile = @item.AvailableRelease.ReleaseImageFiles.Where(c => c.ImageFileType == Malden.Portal.BLL.Release.ImageFileType.ISO).FirstOrDefault();
+                        <td style="vertical-align: middle; text-align: left;" valign="top">
+                            @if (imageFile != null)
+                            {
+                                @Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.DownloadLink(imageFile, item.SerialNumber.ToString(), item.AvailableRelease.Id, item.AvailableRelease.Version.ToString()))
+
+                            }
+                        </td>
+
+                        imageFile = @item.AvailableRelease.ReleaseImageFiles.Where(c => c.ImageFileType == Malden.Portal.BLL.Release.ImageFileType.MSI ||
+                            c.ImageFileType == Malden.Portal.BLL.Release.ImageFileType.Firmware).FirstOrDefault();
+                            <td style="vertical-align: middle; text-align: left;" valign="top">
+                                @if (imageFile != null)
+                                {
+                                    @Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.DownloadLink(imageFile, item.SerialNumber.ToString(), item.AvailableRelease.Id, item.AvailableRelease.Version.ToString()))
+                                }
+                            </td>
+
+
+                        imageFile = @item.AvailableRelease.ReleaseImageFiles.Where(c => c.ImageFileType == Malden.Portal.BLL.Release.ImageFileType.Notes).FirstOrDefault();
+                        <td style="vertical-align: middle; text-align: left;" valign="top">
+                            @if (imageFile != null)
+                            {
+                                @Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.DownloadLink(imageFile, item.SerialNumber.ToString(), item.AvailableRelease.Id, item.AvailableRelease.Version.ToString()))
+                            }
+                        </td>
+                    }
+
+                    @{
+                    var dateOfExpiryText = "-";
+                    var cssClass = "";
+                    if (@item.Product.IsMaintained)
+                    {
+                        if (@item.MaintenanceExpiryDate >= System.DateTime.UtcNow)
+                        {
+                            dateOfExpiryText = String.Format("Expires on {0}", @item.MaintenanceExpiryDate.ToString("dd-MMM-yyyy"));
+                        }
+
+                        else if (@item.IsMaintenanceAvailable)
+                        {
+                            dateOfExpiryText = "Expired";
+                            cssClass = "error";
+                        }
+                    }
+
+                    <td style="text-align: center;">
+
+                        @Html.Label(@dateOfExpiryText, new { @class = @cssClass })
+                    </td>
+
+                if (item.OldReleases.Count > 0)
+                {
+                    <td class="archiveLink-Cell">
+                        @Html.ActionLink("Archive", "Archive", new { id = @item.SerialNumber }, new { @class = "archive" })
+                    </td>
+                }
+                    }
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="register">
+        @if (Model.Count() > 0)
+        {
+            <h3>Register another product:</h3>
+        }
+        else
+        {
+            <h3>Register a product:</h3>
+        }
+        @Html.Partial("_Create", new Malden.Portal.BLL.UserPurchase())
+    </div>
+
+</div>
+    
+}

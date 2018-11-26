@@ -1,0 +1,9 @@
+<Modules>
+  <Module PersistentId="7D191777-E224-4086-A8D1-08E928767479" ModuleId="Malden.Portal.Data.TableStorage" />
+  <Module PersistentId="37F5AFCB-3646-4C7B-94F6-A8AC5F5AED34" ModuleId="Malden.Portal.Data" />
+  <Module PersistentId="A98CEF64-3E28-4AD0-A774-D40DEB52DE3D" ModuleId="Malden.Portal.Tests" />
+  <Module PersistentId="7FF75C35-7057-4E29-B67D-6DC18C711362" ModuleId="Malden.Portal.BLL" />
+  <Module PersistentId="B65DD02D-7B83-4A6F-AF22-3D82487E37ED" ModuleId="Malden.Portal.Webjobs" />
+  <Module PersistentId="F7A445A0-A597-4567-A9D2-E3329F168C66" ModuleId="Malden.Portal.GUI.Azure.Webrole" />
+  <Module PersistentId="AB9D260F-7213-4FEF-8576-2468144587FA" ModuleId="Malden.Portal.DependencyResolver" />
+</Modules>

@@ -1,0 +1,103 @@
+﻿@model IEnumerable<Malden.Portal.BLL.History>
+
+@{
+    var name = ViewBag.userName != null ? ViewBag.userName.ToString() : "";
+
+    <h2>Welcome @name</h2>
+}
+
+<div class="list">
+
+    @Html.Hidden("totalRecords", Session["TotalDownloads"])
+
+    <table>
+        <tr>
+            <td width="60px">
+                @*<a id="infiniteScrollSwitch" href="#" class="loadRecords" title="Enable/Disable infinite scroll">Load 20 More Records</a>*@
+                <input type="submit" value="Load 20 More Records" id="load-more-history" style="width:200px" />
+            </td>
+        </tr>
+        <tr>
+            <td valign="middle">
+                <p id="rowsLoaded"></p>
+            </td>
+        </tr>
+    </table>
+    <img id="check-status" src="~/Content/Custom/images/check-status.gif" />
+    <table id="admin" class="table tablesorter">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.TimeStamp)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UserEmail)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Product)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SerialNumber)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ImageFileType)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UserType)
+                </th>
+                <th align="right">
+                    @Html.DisplayNameFor(model => model.Version)
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.TimeStamp.ToString("dd-MMM-yyyy HH:mm:ss")
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserEmail)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Product)
+                    </td>
+                    <td>
+                        @if (((item.SerialNumber) > 0 && (item.UserType != Malden.Portal.BLL.User.UserType.Distributor)))
+                        {
+                            @Html.DisplayFor(modelItem => item.SerialNumber)
+                        }
+                    </td>
+
+                    <td>
+                        @if (item.ImageFileType > 0)
+                        {
+                            @Html.DisplayFor(modelItem => item.ImageFileType)
+                        }
+                    </td>
+
+                    <td>
+
+                        @Html.DisplayFor(modelItem => item.UserType)
+
+                    </td>
+                    <td class="last-cell">
+                        @item.Version.ToString()
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div id="canvasloader-container" class="wrapper">
+        <img src="~/Content/Custom/images/check-status.gif" />
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="~/Scripts/jquery-2.1.1.min.js"></script>
+    <script src="~/Scripts/Custom/jquery.tablesorter.js"></script>
+    <script src="~/Scripts/Custom/admin-history-functions.js"></script>
+}

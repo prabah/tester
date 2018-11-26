@@ -1,0 +1,43 @@
+﻿@model Malden.Portal.BLL.Product
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details of Product</h2>
+
+<div class="list">
+    <table>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Name)
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.FulfilmentId)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.FulfilmentId)
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model => model.ContainerName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.ContainerName)
+            </td>
+        </tr>
+    </table>
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

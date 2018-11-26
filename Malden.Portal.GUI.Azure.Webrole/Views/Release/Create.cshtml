@@ -1,0 +1,74 @@
+﻿@model Malden.Portal.GUI.Azure.Webrole.Models.ReleaseViewModel
+@{
+    ViewBag.Title = "Create a Release";
+}
+
+<h2>Add</h2>
+
+
+@using (Html.BeginForm("Create", "Release", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+    <fieldset class="editor">
+        <legend></legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Release.DateOfRelease)
+        </div>
+
+        <div class="editor-field">
+            @{
+            var releaseDate = String.Format("{0:dd-MMM-yyyy}", DateTime.Now);
+            @Html.EditorFor(r => releaseDate)
+            }
+            @Html.ValidationMessageFor(model => model.Release.DateOfRelease)
+        </div>
+
+        <div class="editor-field">
+            @Html.LabelFor(model => model.ProductId)
+        </div>
+
+        <div class="editor-field">
+            @Html.DropDownListFor(model => model.ProductId, new SelectList(Model.Products, "Id", "Name", Model.ProductId), "Please select")
+            @Html.ValidationMessageFor(model => model.ProductId)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.VersionString)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.VersionString)
+            @Html.ValidationMessageFor(model => model.VersionString)
+        </div>
+
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.IsHidden)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.IsHidden)
+        </div>
+
+        <p>
+            <input type="submit" value="Add Release" class="malden-button" />
+        </p>
+    </fieldset>
+
+
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+       <script src="~/Scripts/knockout-2.2.0.debug.js"></script>
+    <script src="~/Scripts/Custom/multi-image-uploader.js?v=21911"></script>
+}
+
+ 

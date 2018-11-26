@@ -1,0 +1,4 @@
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\bin\Release\ServiceConfiguration.cscfg
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\bin\Release\ServiceDefinition.csdef
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\bin\Release\ServiceConfiguration.cscfg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\bin\Release\ServiceDefinition.csdef

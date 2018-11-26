@@ -1,0 +1,84 @@
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Malden.Portal.Service.WebNew.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Malden.Portal.Service.WebNew.pdb
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Malden.Portal.BLL.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Malden.Portal.DependencyResolver.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Ninject.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Ninject.Web.Common.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Malden.Portal.Data.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Ninject.Extensions.Wcf.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Malden.Portal.Data.TableStorage.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Microsoft.WindowsAzure.StorageClient.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Microsoft.WindowsAzure.Storage.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Microsoft.Data.OData.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Microsoft.Data.Edm.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\System.Spatial.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Malden.Portal.BLL.pdb
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Malden.Portal.DependencyResolver.pdb
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Ninject.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Ninject.Web.Common.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Malden.Portal.Data.pdb
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Ninject.Extensions.Wcf.pdb
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Ninject.Extensions.Wcf.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Malden.Portal.Data.TableStorage.pdb
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Microsoft.WindowsAzure.StorageClient.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Microsoft.WindowsAzure.Storage.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\obj\Release\Malden.Portal.Service.WebNew.csprojResolveAssemblyReference.cache
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\obj\Release\Malden.Portal.Service.WebNew.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\obj\Release\Malden.Portal.Service.WebNew.pdb
+E:\Source Code\Malden.Portal.New\Malden.Portal.Service.WebNew\bin\Malden.Portal.Service.WebNew.dll.config
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.Service.WebNew.dll.config
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.Service.WebNew.dll
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.Service.WebNew.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.BLL.dll
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.DependencyResolver.dll
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Ninject.dll
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Ninject.Web.Common.dll
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Microsoft.WindowsAzure.Storage.dll
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.Data.dll
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Ninject.Extensions.Wcf.dll
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.Data.TableStorage.dll
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Microsoft.Data.OData.dll
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Microsoft.WindowsAzure.StorageClient.dll
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Microsoft.Data.Edm.dll
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\System.Spatial.dll
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.BLL.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.DependencyResolver.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Ninject.xml
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Ninject.Web.Common.xml
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Microsoft.WindowsAzure.Storage.xml
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.Data.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Ninject.Extensions.Wcf.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Ninject.Extensions.Wcf.xml
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.Data.TableStorage.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\bin\Microsoft.WindowsAzure.StorageClient.xml
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\obj\Release\Malden.Portal.Service.WebNew.csprojResolveAssemblyReference.cache
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\obj\Release\Malden.Portal.Service.WebNew.dll
+E:\Source Code\Malden.Portal\Malden.Portal.Service.WebNew\obj\Release\Malden.Portal.Service.WebNew.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.Service.WebNew.dll.config
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.Service.WebNew.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.Service.WebNew.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.BLL.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.DependencyResolver.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Ninject.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Ninject.Web.Common.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.Data.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Microsoft.WindowsAzure.Storage.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Ninject.Extensions.Wcf.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.Data.TableStorage.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Microsoft.Data.OData.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Microsoft.WindowsAzure.StorageClient.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Microsoft.Data.Edm.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\System.Spatial.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.BLL.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.DependencyResolver.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Ninject.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Ninject.Web.Common.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.Data.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Microsoft.WindowsAzure.Storage.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Ninject.Extensions.Wcf.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Ninject.Extensions.Wcf.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Malden.Portal.Data.TableStorage.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\bin\Microsoft.WindowsAzure.StorageClient.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\obj\Release\Malden.Portal.Service.WebNew.csprojResolveAssemblyReference.cache
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\obj\Release\Malden.Portal.Service.WebNew.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.Service.WebNew\obj\Release\Malden.Portal.Service.WebNew.pdb

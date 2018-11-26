@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\MaldenService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Malden.Portal.BLL.dll">
+      <publishTime>07/15/2014 14:37:20</publishTime>
+    </File>
+    <File Include="bin/Malden.Portal.Data.dll">
+      <publishTime>07/08/2014 09:12:08</publishTime>
+    </File>
+    <File Include="bin/Malden.Portal.Data.TableStorage.dll">
+      <publishTime>07/14/2014 10:33:47</publishTime>
+    </File>
+    <File Include="bin/Malden.Portal.DependencyResolver.dll">
+      <publishTime>07/15/2014 14:37:21</publishTime>
+    </File>
+    <File Include="bin/Malden.Portal.Service.WebNew.dll">
+      <publishTime>07/15/2014 14:37:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Edm.dll">
+      <publishTime>08/21/2013 13:53:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.OData.dll">
+      <publishTime>08/21/2013 13:53:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.WindowsAzure.Storage.dll">
+      <publishTime>12/03/2013 16:42:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.WindowsAzure.StorageClient.dll">
+      <publishTime>03/20/2014 20:42:34</publishTime>
+    </File>
+    <File Include="bin/Ninject.dll">
+      <publishTime>12/03/2013 16:42:52</publishTime>
+    </File>
+    <File Include="bin/Ninject.Extensions.Wcf.dll">
+      <publishTime>12/03/2013 16:38:31</publishTime>
+    </File>
+    <File Include="bin/Ninject.Web.Common.dll">
+      <publishTime>12/03/2013 16:42:52</publishTime>
+    </File>
+    <File Include="bin/System.Spatial.dll">
+      <publishTime>08/21/2013 13:53:34</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>12/10/2013 14:55:26</publishTime>
+    </File>
+    <File Include="MaldenService.svc">
+      <publishTime>12/03/2013 16:42:52</publishTime>
+    </File>
+    <File Include="MaldenStream.svc">
+      <publishTime>12/03/2013 16:42:52</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>07/15/2014 14:37:22</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

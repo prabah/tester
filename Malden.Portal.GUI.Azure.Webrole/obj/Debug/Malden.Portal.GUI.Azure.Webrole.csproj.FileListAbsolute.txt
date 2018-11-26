@@ -1,0 +1,293 @@
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\bodyBg-gray.png
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\bodyBg-green.png
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\footer-grid.jpg
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\logo.jpg
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\more-arrow.png
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\note-arrow.png
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\search-submit.jpg
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\site-dark.jpg
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\site-grid.jpg
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\site.jpg
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\top-blue.jpg
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.GUI.Azure.Webrole.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.GUI.Azure.Webrole.pdb
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Antlr3.Runtime.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.BLL.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.DependencyResolver.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.Web.Infrastructure.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Configuration.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Diagnostics.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Storage.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Newtonsoft.Json.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Common.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Mvc.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Helpers.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.WebHost.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Mvc.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Optimization.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Razor.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Deployment.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Razor.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\WebActivator.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\WebActivatorEx.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\WebGrease.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.TableStorage.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.Data.OData.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Net.Http.Formatting.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.StorageClient.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.Data.Edm.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Spatial.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.BLL.pdb
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.DependencyResolver.pdb
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Antlr3.Runtime.pdb
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Diagnostics.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Storage.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Newtonsoft.Json.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.pdb
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Common.pdb
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Common.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Helpers.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.WebHost.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Mvc.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Razor.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Deployment.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Razor.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.pdb
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.TableStorage.pdb
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\System.Net.Http.Formatting.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.StorageClient.xml
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\obj\Debug\Malden.Portal.GUI.Azure.Webrole.csprojResolveAssemblyReference.cache
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\obj\Debug\Malden.Portal.GUI.Azure.Webrole.dll
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\obj\Debug\Malden.Portal.GUI.Azure.Webrole.pdb
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.GUI.Azure.Webrole.dll.config
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\bodyBg-gray.png
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\bodyBg-green.png
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\footer-grid.jpg
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\logo.jpg
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\more-arrow.png
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\note-arrow.png
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\search-submit.jpg
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\site-dark.jpg
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\site-grid.jpg
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\site.jpg
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\top-blue.jpg
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.GUI.Azure.Webrole.dll.config
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.GUI.Azure.Webrole.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.GUI.Azure.Webrole.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Antlr3.Runtime.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Glimpse.AspNet.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Glimpse.Core.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Glimpse.Mvc4.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.BLL.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.DependencyResolver.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.Web.Infrastructure.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Configuration.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Diagnostics.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Storage.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Newtonsoft.Json.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Common.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Mvc.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Helpers.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.WebHost.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Mvc.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Optimization.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Razor.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Deployment.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Razor.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\WebActivator.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\WebActivatorEx.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\WebGrease.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.TableStorage.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.Data.OData.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Net.Http.Formatting.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.StorageClient.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.Data.Edm.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Spatial.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.BLL.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.DependencyResolver.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Antlr3.Runtime.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Diagnostics.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Storage.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Newtonsoft.Json.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Common.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Common.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Helpers.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.WebHost.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Mvc.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Razor.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Deployment.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Razor.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.TableStorage.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Net.Http.Formatting.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.StorageClient.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\obj\Debug\Malden.Portal.GUI.Azure.Webrole.csprojResolveAssemblyReference.cache
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\obj\Debug\Malden.Portal.GUI.Azure.Webrole.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\obj\Debug\Malden.Portal.GUI.Azure.Webrole.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\bodyBg-gray.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\bodyBg-green.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\footer-grid.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\logo.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\more-arrow.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\note-arrow.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\search-submit.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\site-dark.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\site-grid.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\site.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\top-blue.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\AppInsightsAgent\UnifiedBootstrap.bat
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\AppInsightsAgent\UnifiedBootstrap.ps1
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.GUI.Azure.Webrole.dll.config
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.GUI.Azure.Webrole.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.GUI.Azure.Webrole.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Antlr3.Runtime.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Glimpse.Core.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.BLL.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.DependencyResolver.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.ApplicationInsights.Telemetry.Services.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.ApplicationInsights.Telemetry.Web.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.Web.Infrastructure.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Configuration.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Diagnostics.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Storage.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.StorageClient.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Mvc.Mailer.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Newtonsoft.Json.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Common.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Mvc.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Helpers.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.WebHost.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Mvc.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Optimization.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Razor.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Deployment.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Razor.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\WebActivator.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\WebActivatorEx.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\WebGrease.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.TableStorage.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.Data.OData.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Net.Http.Formatting.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.Data.Edm.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Spatial.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.BLL.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.DependencyResolver.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Antlr3.Runtime.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.ApplicationInsights.Telemetry.Services.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.ApplicationInsights.Telemetry.Web.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Diagnostics.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Storage.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.StorageClient.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Newtonsoft.Json.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Common.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Common.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Helpers.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.WebHost.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Mvc.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Razor.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Deployment.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Razor.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.TableStorage.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Net.Http.Formatting.xml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\obj\Debug\Malden.Portal.GUI.Azure.Webrole.csprojResolveAssemblyReference.cache
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\obj\Debug\Malden.Portal.GUI.Azure.Webrole.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\obj\Debug\Malden.Portal.GUI.Azure.Webrole.pdb
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\obj\Debug\Malden.Portal.GUI.Azure.Webrole.csprojResolveAssemblyReference.cache
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\obj\Debug\Malden.Portal.GUI.Azure.Webrole.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\obj\Debug\Malden.Portal.GUI.Azure.Webrole.pdb
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\bodyBg-gray.png
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\bodyBg-green.png
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\footer-grid.jpg
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\logo.jpg
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\more-arrow.png
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\note-arrow.png
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\search-submit.jpg
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\site-dark.jpg
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\site-grid.jpg
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\site.jpg
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\top-blue.jpg
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\AppInsightsAgent\UnifiedBootstrap.bat
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\AppInsightsAgent\UnifiedBootstrap.ps1
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.GUI.Azure.Webrole.dll.config
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.GUI.Azure.Webrole.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.GUI.Azure.Webrole.pdb
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Antlr3.Runtime.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Glimpse.Core.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.BLL.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.DependencyResolver.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.ApplicationInsights.Telemetry.Services.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.ApplicationInsights.Telemetry.Web.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.Web.Infrastructure.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Mvc.Mailer.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Newtonsoft.Json.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Common.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Mvc.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Helpers.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.WebHost.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Mvc.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Optimization.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Razor.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Deployment.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Razor.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\WebActivator.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\WebActivatorEx.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\WebGrease.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.TableStorage.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.Data.OData.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Net.Http.Formatting.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.Data.Edm.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Spatial.dll
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.BLL.pdb
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.DependencyResolver.pdb
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Antlr3.Runtime.pdb
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.ApplicationInsights.Telemetry.Services.xml
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.ApplicationInsights.Telemetry.Web.xml
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Storage.xml
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.StorageClient.xml
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Newtonsoft.Json.xml
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.pdb
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.xml
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Common.pdb
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Common.xml
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Helpers.xml
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.xml
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.WebHost.xml
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Mvc.xml
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Razor.xml
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.xml
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Deployment.xml
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Razor.xml
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.pdb
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.TableStorage.pdb
+E:\Malden Electronics\Malden Projects\Malden.Portal\Malden.Portal.GUI.Azure.Webrole\bin\System.Net.Http.Formatting.xml

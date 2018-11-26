@@ -1,0 +1,56 @@
+﻿@model Malden.Portal.GUI.Azure.Webrole.Models.Users.CustomLoginModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<section id="loginForm">
+    <div style="clear: both; min-height: 100px;"></div>
+    <div id="member-login">
+        @using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl }))
+        {
+            <fieldset class="login">
+                <span id="user"></span>
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+                <legend></legend>
+                <ol id="login">
+                    <li>
+                        @Html.LabelFor(m => m.Email)
+                        @Html.TextBoxFor(m => m.Email, new { @type = "text", @placeholder = "Email", @class="user-input" })
+                        <div>
+                            @Html.ValidationMessageFor(m => m.Email)
+                        </div>
+                    </li>
+
+                    <li>
+                        @Html.LabelFor(m => m.Password)
+                        @Html.PasswordFor(m => m.Password, new { @type = "password", @placeholder = "Password", @class = "user-input" })
+                        <div>
+                            @Html.ValidationMessageFor(m => m.Password)
+                        </div>
+                    </li>
+
+                    <li class="right-aligned">
+                        <input type="submit" value="Log in"  />
+                        @*<span class="arrow"></span>*@
+                    </li>
+
+                    <li class="right-aligned">
+                        @Html.ActionLink("Create Account", "Register")
+                    </li>
+
+                    <li class="right-aligned">
+                        @Html.ActionLink("Forgotten your password?", "PasswordResetRequest")
+                    </li>
+                </ol>
+
+            </fieldset>
+
+        }
+    </div>
+</section>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

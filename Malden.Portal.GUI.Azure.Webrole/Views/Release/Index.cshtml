@@ -1,0 +1,118 @@
+﻿@model IEnumerable<Malden.Portal.GUI.Azure.Webrole.Models.ReleaseViewModel>
+
+@{
+    ViewBag.Title = "Releases";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@{
+    if (Model.Count() == 0)
+    {
+        <p>No releases for the selected item is available</p>
+        return;
+    }
+}
+
+<div class="list">
+
+    <div class="contents">
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ProductName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.VersionString)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Release.DateOfRelease)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Release.IsHidden)
+                </th>
+                @{
+
+                    var fileTypes = from Malden.Portal.BLL.Release.ImageFileType e in
+                                        Enum.GetValues(typeof(Malden.Portal.BLL.Release.ImageFileType))
+                                    select new { Id = (int)e };
+                }
+                @foreach (var fileType in fileTypes)
+                {
+                    <th class="releaseAvailability">
+                        @{
+
+                    var type = Enum.GetName(typeof(Malden.Portal.BLL.Release.ImageFileType), fileType.Id);
+                    @Html.Label(type);
+                        }
+                    </th>
+                }
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProductName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.VersionString)
+                    </td>
+                    <td>
+                        @Html.Label(item.Release.DateOfRelease.ToString("dd-MMM-yyyy"))
+                    </td>
+                    <td>
+                        @{
+                            var imgSrc = @item.IsHidden ? "/Content/Custom/images/active.png" : "/Content/Custom/images/inactive.png";
+                        }
+                        <img src=@imgSrc alt="X">
+                    </td>
+
+                    @foreach (var fileType in fileTypes)
+                    {
+
+                        var imageSrc = string.Empty;
+                        var altText = string.Empty;
+                        var fileCount = item.ImageFileCount.Count > 0 ? item.ImageFileCount.Where(c => c.FileType == fileType.Id).FirstOrDefault().NoOfFiles : 0;
+
+                        <td class="releaseAvailability">
+                            @if (fileCount > 0)
+                            {
+                                <img src="/Content/Custom/images/active.png" alt='Y'>
+                            }
+                            else
+                            {
+                                <img src="/Content/Custom/images/inactive.png" alt='N'>
+                            }
+                        </td>
+                    }
+
+                    <td class="last-cell">
+                        @Html.ActionLink("Manage Images", "Upload", new { id = item.Id }) |
+                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                        <a href="@Url.Action("Delete")" class="deleteRelease" data-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </table>
+
+    </div>
+
+    @Html.ActionLink("Back to Products List", "Index", "Product") |
+
+    @if (ViewBag.SelectedProductId > 0)
+    {
+        @Html.ActionLink("Manage Images", "ReleaseFiles" + "/" + @Model.FirstOrDefault().ProductId);
+    }
+
+    @Html.Partial("_confirmDialog")
+</div>
+@section Scripts
+{
+    <script src="~/Scripts/smartpaginator.js"></script>
+}

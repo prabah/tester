@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Malden.Portal.BLL.User>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@{
+    var IsAdmin = Model.Any(m => m.IsAdmin == true);
+}
+
+<div class="list">
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Company)
+            </th>
+            @if (IsAdmin)
+            {
+                <th>
+                    @Html.DisplayNameFor(model => model.IsAdmin)
+                </th>
+            }
+
+            <th>
+                @Html.DisplayNameFor(model => model.IsBlocked)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Company)
+                </td>
+
+                @if (IsAdmin)
+                {
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IsAdmin)
+                    </td>
+                }
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsBlocked)
+                </td>
+                <td class="last-cell">
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    <a href="@Url.Action("Delete")" class="blockUser" data-id="@item.Id">Block User</a>
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+@Html.Partial("_confirmDialog")

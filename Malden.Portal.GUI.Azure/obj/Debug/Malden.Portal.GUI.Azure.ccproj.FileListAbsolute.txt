@@ -1,0 +1,356 @@
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure\bin\Debug\ServiceConfiguration.cscfg
+E:\Source Code\Malden.Portal.New\Malden.Portal.GUI.Azure\bin\Debug\ServiceDefinition.csdef
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\bin\Debug\ServiceConfiguration.cscfg
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\bin\Debug\ServiceDefinition.csdef
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Antlr3.Runtime.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Antlr3.Runtime.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\bodyBg-gray.png
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\bodyBg-green.png
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\footer-grid.jpg
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\logo.jpg
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\more-arrow.png
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\note-arrow.png
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\search-submit.jpg
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\site-dark.jpg
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\site-grid.jpg
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\site.jpg
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\top-blue.jpg
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Glimpse.AspNet.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Glimpse.Core.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Glimpse.Mvc4.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.BLL.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.BLL.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.TableStorage.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.TableStorage.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.DependencyResolver.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.DependencyResolver.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.GUI.Azure.Webrole.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.GUI.Azure.Webrole.dll.config
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.GUI.Azure.Webrole.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.Data.Edm.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.Data.OData.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.Web.Infrastructure.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Configuration.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Diagnostics.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Diagnostics.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Storage.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Storage.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.StorageClient.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.StorageClient.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Newtonsoft.Json.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Newtonsoft.Json.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Extensions.Wcf.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Common.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Common.pdb
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Common.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Mvc.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Net.Http.Formatting.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Net.Http.Formatting.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Spatial.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Helpers.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Helpers.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.WebHost.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.WebHost.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Mvc.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Mvc.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Optimization.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Razor.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Razor.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Deployment.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Deployment.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Razor.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Razor.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.xml
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\WebActivator.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\WebActivatorEx.dll
+E:\Source Code\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\WebGrease.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\bin\Debug\ServiceConfiguration.cscfg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\bin\Debug\ServiceDefinition.csdef
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\AppInsightsAgent\UnifiedBootstrap.bat
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\AppInsightsAgent\UnifiedBootstrap.ps1
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\ApplicationInsights.config
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\App_Code\Flash.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Antlr3.Runtime.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Antlr3.Runtime.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\AppInsightsAgent\UnifiedBootstrap.bat
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\AppInsightsAgent\UnifiedBootstrap.ps1
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\bodyBg-gray.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\bodyBg-green.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\footer-grid.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\logo.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\more-arrow.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\note-arrow.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\search-submit.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\site-dark.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\site-grid.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\site.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Content\Custom\images\top-blue.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Glimpse.Core.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.BLL.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.BLL.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.TableStorage.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.Data.TableStorage.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.DependencyResolver.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.DependencyResolver.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.GUI.Azure.Webrole.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Malden.Portal.GUI.Azure.Webrole.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.ApplicationInsights.Telemetry.Services.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.ApplicationInsights.Telemetry.Web.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.Data.Edm.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.Data.OData.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.Web.Infrastructure.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Configuration.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Diagnostics.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.Storage.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Microsoft.WindowsAzure.StorageClient.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Mvc.Mailer.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Newtonsoft.Json.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Extensions.Wcf.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Common.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Common.pdb
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\Ninject.Web.Mvc.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Net.Http.Formatting.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Spatial.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Helpers.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Http.WebHost.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Mvc.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Optimization.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.Razor.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Deployment.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\System.Web.WebPages.Razor.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\WebActivator.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\WebActivatorEx.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\bin\WebGrease.dll
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\CustomStyles.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\CustomStyles.less
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\CustomStyles.min.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\fonts\helveticaneue-webfont.eot
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\fonts\helveticaneue-webfont.woff
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\fonts\HelveticaNeue.ttf
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\fonts\HelveticaNeueBold.ttf
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\fonts\HelveticaNeueBoldItalic.ttf
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\fonts\HelveticaNeueCondensedBlack.ttf
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\fonts\HelveticaNeueCondensedBold.ttf
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\fonts\HelveticaNeueItalic.ttf
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\fonts\HelveticaNeueLight.ttf
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\fonts\HelveticaNeueLightItalic.ttf
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\fonts\HelveticaNeueMedium.ttf
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\fonts\HelveticaNeueUltraLight.ttf
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\fonts\HelveticaNeueUltraLightItalic.ttf
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\active.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\active.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\asc.gif
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\bg.gif
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\bodyBg-gray.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\bodyBg-green.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\check-status.gif
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\desc.gif
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\footer-grid.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\inactive.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\inactive.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\logo.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\more-arrow.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\note-arrow.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\playpause.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\search-submit.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\site-dark.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\site-grid-blue.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\site-grid-grey.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\site-grid.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\site.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\images\top-blue.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\jquery.rcrumbs.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\logo.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\Messages.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\Messages.less
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\Messages.min.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\reset.less
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\site-grid.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\site.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\top-blue.jpg
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Custom\webstyles.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\Site.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\images\animated-overlay.gif
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\images\ui-icons_222222_256x240.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\images\ui-icons_2e83ff_256x240.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\images\ui-icons_454545_256x240.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\images\ui-icons_888888_256x240.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\images\ui-icons_cd0a0a_256x240.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\jquery-ui.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\jquery.ui.accordion.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\jquery.ui.all.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\jquery.ui.autocomplete.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\jquery.ui.base.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\jquery.ui.button.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\jquery.ui.core.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\jquery.ui.datepicker.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\jquery.ui.dialog.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\jquery.ui.menu.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\jquery.ui.progressbar.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\jquery.ui.resizable.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\jquery.ui.selectable.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\jquery.ui.slider.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\jquery.ui.spinner.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\jquery.ui.tabs.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\jquery.ui.theme.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\jquery.ui.tooltip.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\images\animated-overlay.gif
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\jquery-ui.min.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\jquery.ui.accordion.min.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\jquery.ui.autocomplete.min.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\jquery.ui.button.min.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\jquery.ui.core.min.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\jquery.ui.datepicker.min.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\jquery.ui.dialog.min.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\jquery.ui.menu.min.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\jquery.ui.progressbar.min.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\jquery.ui.resizable.min.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\jquery.ui.selectable.min.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\jquery.ui.slider.min.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\jquery.ui.spinner.min.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\jquery.ui.tabs.min.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\jquery.ui.theme.min.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Content\themes\base\minified\jquery.ui.tooltip.min.css
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\favicon.ico
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Global.asax
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\HtmlPage1.html
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Images\accent.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Images\bullet.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Images\heroAccent.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Images\orderedList0.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Images\orderedList1.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Images\orderedList2.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Images\orderedList3.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Images\orderedList4.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Images\orderedList5.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Images\orderedList6.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Images\orderedList7.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Images\orderedList8.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Images\orderedList9.png
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\packages.config
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\Custom\admin-common.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\Custom\admin-history-functions.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\Custom\app-insight.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\Custom\custom-functions.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\Custom\jquery.rcrumbs.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\Custom\jquery.tablesorter.extras-0.1.22.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\Custom\jquery.tablesorter.extras-0.1.22.min.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\Custom\jquery.tablesorter.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\Custom\jquery.tablesorter.min.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\Custom\jquery.tablesorter.min.js.map
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\Custom\jquery.unobtrusive-ajax.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\Custom\jquery.unobtrusive-ajax.min.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\Custom\multi-image-uploader.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\Custom\product-registration.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\Custom\validation-rules.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\Custom\_references.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\jquery-1.4.4.min.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\jquery-1.7.2.min.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\jquery-2.1.1.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\jquery-2.1.1.min.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\jquery-2.1.1.min.map
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\jquery-ui-1.10.3.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\jquery-ui-1.10.3.min.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\jquery-ui-1.8.24.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\jquery-ui-1.8.24.min.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\jquery.maskedinput-1.3.1.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\jquery.maskedinput-1.3.1.min.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\jquery.maskedinput-1.3.1.min.js.map
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\jquery.unobtrusive-ajax.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\jquery.unobtrusive-ajax.min.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\jquery.validate.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\jquery.validate.min.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\jquery.validate.unobtrusive.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\jquery.validate.unobtrusive.min.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\knockout-2.2.0.debug.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\knockout-2.2.0.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\modernizr-2.6.2.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\smartpaginator.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Scripts\_references.js
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Account\ActivationError.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Account\ActivationRequest.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Account\ActivationSuccess.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Account\ConfirmDistributorToken.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Account\ConfirmPasswordReset.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Account\Edit.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Account\Index.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Account\Login.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Account\Logout.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Account\PasswordResetEmailed.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Account\PasswordResetRequest.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Account\PasswordResetSuccess.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Account\Register.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\DailyTask\CleanUpUsers.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Distributor\Create.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Distributor\Details.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Distributor\Edit.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Distributor\Index.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Error\CustomError.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Error\NotFound.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Home\Admin.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Home\Archive.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Home\Create.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Home\Distributor.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Home\Edit.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Home\Filter.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Home\Index.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Home\_Create.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Home\_OldReleases.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Maintenance\Create.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Maintenance\Edit.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Maintenance\Index.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Maintenance\Manage.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Product\Create.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Product\Details.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Product\Edit.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Product\Index.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Release\Create.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Release\Details.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Release\Edit.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Release\Index.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Release\ReleaseFiles.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Release\Upload.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Release\_fileUploader.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Shared\Error.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Shared\_confirmDialog.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Shared\_customAlert.chstml.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Shared\_Footer.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Shared\_HeaderMenu.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Shared\_Layout.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Shared\_LoginPartial.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\UserMailer\ResetPassword.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\UserMailer\Welcome.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\UserMailer\_Layout.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\Web.config
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Views\_ViewStart.cshtml
+E:\SourceCode\Malden.Portal\Malden.Portal.GUI.Azure\obj\Debug\Malden.Portal.GUI.Azure.Webrole\Web.config

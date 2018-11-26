@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Malden.Portal.BLL.User>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@{
+    if (Model.Count() > 0)
+    {
+        <h2>
+            @Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.GetEnumDescription(Model.FirstOrDefault().TypeOfUser)s
+        </h2>
+    }
+}
+
+<div class="list">
+    <table id="users" class="table tablesorter">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.Company)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.IsBlocked)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Company)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IsBlocked)
+                    </td>
+                    <td class="last-cell">
+                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                        <a href="@Url.Action("Delete")" class="blockUser" data-id="@item.Id">Block User</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+@Html.Partial("_confirmDialog")
+@section Scripts {
+    <script src="~/Scripts/Custom/jquery.tablesorter.js"></script>
+    <script src="~/Scripts/Custom/admin-common.js"></script>
+}

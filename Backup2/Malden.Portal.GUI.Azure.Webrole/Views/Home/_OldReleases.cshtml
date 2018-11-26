@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Malden.Portal.BLL.Release>
+
+
+<div class="list" style="clear:both;">
+    @foreach (var item in Model)
+    {
+        <div style="float: left; padding-top: 13px; clear: both; ">
+            <div>
+                <p><strong>Version</strong>: @item.Version.ToString()</p>
+            </div>
+            <table>
+                <tr>
+                    @{
+                        var serialNumber = ViewContext.RouteData.Values["Id"];
+
+            if (@item.ReleaseImageFiles != null)
+            {
+
+                var imageFile = @item.ReleaseImageFiles.Where(c => c.ImageFileType == Malden.Portal.BLL.Release.ImageFileType.ISO).FirstOrDefault();
+                <td style="vertical-align: middle; text-align: left;" valign="top">
+                    @if (imageFile != null)
+                    {
+                        @Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.DownloadLink(imageFile, serialNumber.ToString(), @item.Id, @item.Version.ToString()))
+
+                    }
+                </td>
+
+                imageFile = @item.ReleaseImageFiles.Where(c => c.ImageFileType == Malden.Portal.BLL.Release.ImageFileType.MSI ||
+                    c.ImageFileType == Malden.Portal.BLL.Release.ImageFileType.Firmware).FirstOrDefault();
+                    <td style="vertical-align: middle; text-align: left;" valign="top">
+                        @if (imageFile != null)
+                        {
+                            @Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.DownloadLink(imageFile, serialNumber.ToString(), @item.Id, @item.Version.ToString()))
+                        }
+                    </td>
+
+
+                imageFile = @item.ReleaseImageFiles.Where(c => c.ImageFileType == Malden.Portal.BLL.Release.ImageFileType.Notes).FirstOrDefault();
+                <td style="vertical-align: middle; text-align: left;" valign="top">
+                    @if (imageFile != null)
+                    {
+                        @Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.DownloadLink(imageFile, serialNumber.ToString(), @item.Id, @item.Version.ToString()))
+                    }
+                </td>
+
+
+        }
+}
+                </tr>
+            </table>
+
+        </div>
+    }
+
+
+</div>

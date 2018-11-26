@@ -1,0 +1,43 @@
+﻿@using Ninject;
+@{
+
+    var kernel = Malden.Portal.GUI.Azure.Webrole.App_Start.NinjectWebCommon.kernelObject;
+    var userLogic = kernel.Get<Malden.Portal.BLL.IUserLogic>();
+    var user = userLogic.User(User.Identity.Name);
+
+    if (user != null && user.IsAdmin)
+    {
+
+        <ul id="menuPrimary" class="menu" style="margin-top: 10px;">
+            <li id="menu-item-350"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-450">
+                @Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.AdminOnlyMenu(this.Html, "Home", "Home", "Index"))
+            </li>
+
+            <li id="menu-item-450"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-450">
+                @Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.AdminOnlyMenu(this.Html, "Product", "Products", "Index"))
+            </li>
+
+            <li id="menu-item-550"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-450">
+                @Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.AdminOnlyMenu(this.Html, "Release", "Releases", "Index"))
+            </li>
+
+            <li id="menu-item-750"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-450">
+                @Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.AdminOnlyMenu(this.Html, "Maintenance", "Maintenance Contracts", "Index"))
+            </li>
+
+            <li id="menu-item-650"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-450">
+                @Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.AdminOnlyMenu(this.Html, "Account", "Admins", "Administrators"))
+            </li>
+
+            <li id="menu-item-79"
+                class="last menu-item menu-item-type-post_type menu-item-object-page menu-item-79">
+                @Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.AdminOnlyMenu(this.Html, "Account", "Customers", "Index"))
+            </li>
+        </ul>
+    }
+}

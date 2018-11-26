@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Distributor Token";
+}
+
+<h2>Distributor Token Confirmation</h2>
+
+@using (Html.BeginForm("ActivateDistributor", "Account"))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset class="editor">
+        <legend></legend>
+
+        <div class="editor-label">
+            @Html.Label("Please enter the token")
+        </div>
+
+        <div class="editor-field">
+            @Html.TextBox("token")
+        </div>
+        <input type="submit" value="Activate" class="malden-button" />
+    </fieldset>
+}
+@Html.ValidationSummary()

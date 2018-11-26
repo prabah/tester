@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Malden.Portal.GUI.Azure.Webrole.Models.DistributorViewModel>
+
+@{
+    ViewBag.Title = "Distributor";
+
+    var name = ViewBag.userName != null ? ViewBag.userName.ToString() : "";
+
+    <h2>Distributor Access for @name</h2>
+}
+
+@if (Model != null)
+{
+    <div>
+        <span id="user"></span>
+        @if (Model.Count() > 0)
+        {
+            <h3>Available products:</h3>
+        }
+
+        <div id="registeredProducts">
+            <table id="userproducts" style="width: 100%;">
+                @if (Model.Count() > 0)
+                {
+                    <thead style="font-weight: bold; font-size: 1.125em;">
+                        <tr>
+                            <th style="text-align: left;">Product</th>
+                            <th colspan="3" style="text-align: left;">Software Updates</th>
+                        </tr>
+                    </thead>
+                }
+                @foreach (var item in Model)
+                {
+                    <tr style="height: 50px;">
+                        <td>
+                            @item.Product.Name
+                        </td>
+                        <td class="serial"></td>
+
+
+                        @if (item.Release.Version != null)
+                        {
+                            var imageFile = @item.Release.ReleaseImageFiles.Where(c => c.ImageFileType == Malden.Portal.BLL.Release.ImageFileType.ISO).FirstOrDefault();
+                            <td style="vertical-align: middle; text-align: left;" valign="top">
+                                @if (imageFile != null)
+                                {
+                                    @Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.DownloadLink(imageFile, "0", item.Release.Id, item.Release.Version.ToString(), Malden.Portal.BLL.User.UserType.Distributor))
+
+                                }
+                            </td>
+
+                            imageFile = @item.Release.ReleaseImageFiles.Where(c => c.ImageFileType == Malden.Portal.BLL.Release.ImageFileType.MSI ||
+                                c.ImageFileType == Malden.Portal.BLL.Release.ImageFileType.Firmware).FirstOrDefault();
+                                <td style="vertical-align: middle; text-align: left;" valign="top">
+                                    @if (imageFile != null)
+                                    {
+                                        @Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.DownloadLink(imageFile, "0", item.Release.Id, item.Release.Version.ToString(),Malden.Portal.BLL.User.UserType.Distributor))
+                                    }
+                                </td>
+
+                            imageFile = @item.Release.ReleaseImageFiles.Where(c => c.ImageFileType == Malden.Portal.BLL.Release.ImageFileType.Notes).FirstOrDefault();
+                            <td style="vertical-align: middle; text-align: left;" valign="top">
+                                @if (imageFile != null)
+                                {
+                                    @Html.Raw(Malden.Portal.GUI.Azure.Webrole.Utilities.CustomHelpers.DownloadLink(imageFile, "0", item.Release.Id, item.Release.Version.ToString(), Malden.Portal.BLL.User.UserType.Distributor))
+                                }
+                            </td>
+
+                            <td class="last-cell">
+                                @Html.ActionLink("Archive", "ArchiveDistributor", new { id = @item.Release.ProductId }, new { @class = "archive" })
+                            </td>
+                        }
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+}

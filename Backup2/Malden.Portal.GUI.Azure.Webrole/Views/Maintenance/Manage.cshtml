@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Malden.Portal.BLL.MaintenanceContract>
+
+@{
+    ViewBag.Title = "Manage";
+}
+<script src="~/Scripts/jquery-2.0.3.js"></script>
+@Html.ActionLink("Back to the list","Index")
+
+<h2>Maintenance Contracts for @Model.FirstOrDefault().SerialNumber</h2>
+
+@*<p>
+    @Html.ActionLink("Add New Maintenace", "Create", new { id = @Model.FirstOrDefault().SerialNumber })
+</p>*@
+
+@if (@Model.Count() >  0){
+
+<div class="list">
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfExpiry)
+            </th>
+
+            <th>
+                @Html.Label("Status")
+            </th>
+
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.Label(item.DateOfExpiry.ToString("dd-MMM-yyyy"))
+                </td>
+
+                <td>
+                    @Html.Label(item.DateOfExpiry >= DateTime.UtcNow ? "Expires on " + item.DateOfExpiry.ToString("dd-MMM-yyyy") : "Expired")
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+            <a href="@Url.Action("Delete")" class="deleteMaintenance" data-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+}
+@Html.Partial("_confirmDialog")

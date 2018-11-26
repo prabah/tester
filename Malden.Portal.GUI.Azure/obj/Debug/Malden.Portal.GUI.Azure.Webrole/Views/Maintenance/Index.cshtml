@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Malden.Portal.BLL.MaintenanceContract>
+
+@{
+    ViewBag.Title = "Index";
+}
+<script src="~/Scripts/jquery-2.0.3.js"></script>
+<h2>Current Maintenance Contracts</h2>
+
+<p>
+    @Html.ActionLink("Add New Maintenance Contract", "Create")
+</p>
+
+<div class="list">
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SerialNumber)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Product.Name)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfExpiry)
+            </th>
+
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @{
+                        var md5 = String.Format("{0} - {1}", item.SerialNumber.ToString("D5"),  Malden.Portal.BLL.Utilities.PasswordResolver.CalculateMD5Hash(item.SerialNumber.ToString()).Substring(0, 5));
+                    }
+                    @Html.DisplayFor(m => md5)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product.Name)
+                </td>
+
+                <td>
+                    @Html.Label(item.DateOfExpiry.ToString("dd-MMM-yyyy"))
+                </td>
+                <td class="last-cell">
+                    @Html.ActionLink("Manage", "Manage", new { id = item.SerialNumber })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+

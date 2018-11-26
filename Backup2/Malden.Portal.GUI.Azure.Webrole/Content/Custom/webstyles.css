@@ -1,0 +1,463 @@
+/*----------------------------------------------------------
+
+* Theme Name:   Electric Studio
+* Theme URI:    http://www.electricstudio.co.uk
+* Author:       Electric Studio
+* Email:		hello@electricstudio.co.uk
+* Description:  A Wordpress theme for [Client] by Electric Studio
+* Version: 	 	0.0.1
+* License: 		N/A
+
+[Core Stylesheet]
+
+[1.0] Base Styles
+1.1 - Font Styles
+[2.0] Layout
+[3.0] Header
+3.1 - Menu
+[4.0] Content
+4.1 - Homepage
+    4.1.1 - Custom elements (Login Page)
+
+4.2 - Pages
+4.3 - Posts - Single
+4.4 - Posts - Archive / Categories / Search Results
+4.5 - Posts - Custom post types
+[5.0] Sidebar
+[6.0] Footer
+[7.0] Misc
+[8.0] Plugin Styles
+[9.0] Fixes
+[10.0] Notes
+
+------------------------------------------------------------*/
+
+/* 1.0 */
+html, body {
+    background: #5e5e5e url(images/site-dark.jpg) repeat;
+}
+
+#wrap {
+    display: block;
+    float: left;
+    clear: both;
+    width: 100%;
+    background: #f8f8f8 url(images/site.jpg) repeat;
+}
+
+#wrap-inner {
+    display: block;
+    float: left;
+    clear: both;
+    background: url(images/site-grid.jpg) repeat-x 0 0;
+    width: 100%;
+}
+
+/* 1.1 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #434343;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 1.5em;
+    color: #383838;
+    -webkit-text-shadow: 1px 1px 1px rgba(255,255,255,0.66);
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.66);
+    font-size: 0.875em;
+    line-height: 20px;
+}
+
+a {
+    color: #258cef;
+}
+
+
+ol {
+    margin: 0px 0px 1.5em 30px;
+    color: #383838;
+    list-style: none;
+    -webkit-text-shadow: 1px 1px 1px rgba(255,255,255,0.66);
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.66);
+    font-size: .875em;
+    line-height: 20px;
+}
+
+
+/* 2.0 */
+/* 3.0 */
+
+#header {
+    position: relative;
+    display: block;
+    float: left;
+    clear: both;
+    overflow: hidden;
+    margin: 0;
+    padding: 27px 0 20px;
+    width: 100%;
+    background: url("images/top-blue.jpg") repeat-x 0 0;
+}
+
+#logo {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    width: 185px;
+    height: 75px;
+    background: url(images/logo.jpg) no-repeat 0 0;
+    text-indent: -9999px;
+    margin-left: -10px;
+}
+
+#header-center {
+    left: 50%;
+    z-index: 5;
+    clear: both;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    width: 70%;
+    height: 75px;
+    background: #fff;
+    /*margin:0 0 0 -480px;*/
+    /*position:absolute;
+	top:27px;*/
+}
+
+#header-navigation {
+    display: inline;
+    float: right;
+    padding: 0 15px;
+}
+
+#header-banner {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    display: block;
+    margin: 0;
+    height: 75px;
+    background: #fff;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.10);
+}
+
+/* -3.1 */
+/* Header navigation */
+/*Refer CustomStyles*/
+
+
+/* Footer navigation */
+
+ul#menu-footer {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    ul#menu-footer > li {
+        display: inline;
+        float: left;
+        overflow: hidden;
+        margin: 0 20px 0 0;
+    }
+
+        ul#menu-footer > li > a {
+            display: block;
+            overflow: hidden;
+            padding: 5px 20px 5px 5px;
+            border-bottom: 1px solid #7c7c7c;
+            color: #fff;
+            text-transform: uppercase;
+            -webkit-text-shadow: 1px 1px 1px rgba(0,0,0,0.33);
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.33);
+            font-weight: bold;
+            font-size: .875em;
+            line-height: 20px;
+        }
+
+        ul#menu-footer > li > ul.sub-menu {
+            display: block;
+            clear: both;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+            ul#menu-footer > li > ul.sub-menu > li {
+            }
+
+                ul#menu-footer > li > ul.sub-menu > li > a {
+                    display: block;
+                    overflow: hidden;
+                    padding: 5px 20px 5px 5px;
+                    border-bottom: 1px solid #7c7c7c;
+                    color: #fff;
+                    -webkit-text-shadow: 1px 1px 1px rgba(0,0,0,0.33);
+                    text-shadow: 1px 1px 1px rgba(0,0,0,0.33);
+                    font-weight: bold;
+                    font-size: .75em;
+                    line-height: 18px;
+                }
+
+                ul#menu-footer > li > ul.sub-menu > li > ul.sub-menu {
+                    display: block;
+                    clear: both;
+                    overflow: hidden;
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                }
+
+                    ul#menu-footer > li > ul.sub-menu > li > ul.sub-menu > li {
+                    }
+
+                        ul#menu-footer > li > ul.sub-menu > li > ul.sub-menu > li > a {
+                            display: block;
+                            overflow: hidden;
+                            padding: 5px 20px 5px 5px;
+                            border-bottom: 1px solid #7c7c7c;
+                            color: #fff;
+                            -webkit-text-shadow: 1px 1px 1px rgba(0,0,0,0.33);
+                            text-shadow: 1px 1px 1px rgba(0,0,0,0.33);
+                            font-size: .75em;
+                            line-height: 18px;
+                        }
+
+                            ul#menu-footer > li > a:hover,
+                            ul#menu-footer > li > ul.sub-menu > li > a:hover,
+                            ul#menu-footer > li > ul.sub-menu > li > ul.sub-menu > li > a:hover {
+                                padding: 5px 15px 5px 10px;
+                                text-decoration: none;
+                            }
+
+/* 4.0 */
+
+#content {
+    position: relative;
+    clear: both;
+    margin: 0 auto;
+    padding: 0 0 20px;
+    width: 70%;
+}
+
+    #content nav {
+        margin: 0 0 15px;
+        padding: 0;
+        list-style: none;
+        -webkit-text-shadow: 1px 1px 1px rgba(255,255,255,0.66);
+        text-shadow: 1px 1px 1px rgba(255,255,255,0.66);
+        font-size: .875em;
+        line-height: 20px;
+    }
+
+/*#content ul li {
+            background: url(images/bg/list.jpg) no-repeat 8px 6px;
+        }*/
+/* -4.1 */
+
+
+.wp-pagenavi a:hover {
+    color: #258cef;
+    text-decoration: none;
+}
+
+
+#sidebar-inner ul.pages > li.current_page_item > a:hover {
+    text-decoration: none;
+}
+
+#sidebar-inner ul.pages > li > ul.sub-menu > li.current-cat > a:hover {
+    text-decoration: none;
+}
+
+#sidebar-inner ul.pages > li > ul.children > li.current-cat > a:hover {
+    text-decoration: none;
+}
+
+/* 6.0 */
+
+#footer {
+    display: block;
+    float: left;
+    clear: both;
+    overflow: hidden;
+    padding: 20px 0 0;
+    width: 100%;
+    border-top: 5px solid #258cef;
+    background: url(images/footer-grid.jpg) repeat-x 0 0;
+}
+
+#footer-center {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+}
+
+    #footer-center p {
+        color: #fff;
+        -webkit-text-shadow: 1px 1px 1px rgba(0,0,0,0.33);
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.33);
+        font-size: .75em;
+        line-height: 18px;
+    }
+
+    #footer-center a {
+        color: #fff;
+    }
+
+#footer-navigation {
+    display: inline;
+    float: left;
+}
+
+#footer-search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    display: inline;
+    float: right;
+    /*width:110px;*/
+}
+
+    #footer-search p {
+        display: block;
+        overflow: hidden;
+        margin: 0 0 5px;
+        padding: 5px;
+        color: #fff;
+        text-align: right;
+        text-transform: uppercase;
+        -webkit-text-shadow: 1px 1px 1px rgba(0,0,0,0.33);
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.33);
+        font-weight: bold;
+        font-size: .875em;
+        line-height: 20px;
+    }
+
+    #footer-search form {
+        position: relative;
+        width: 110px;
+        height: 35px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.10);
+    }
+
+    #footer-search label {
+        display: none;
+    }
+
+    #footer-search input#s {
+        padding: 10px 45px 10px 10px;
+        width: 55px;
+        height: 15px;
+        border: 0;
+        background: #fff;
+        color: #5e5e5e;
+        font-size: .75em;
+        line-height: 15px;
+    }
+
+    #footer-search input#searchsubmit {
+        position: absolute;
+        top: -8px;
+        right: 5px;
+        z-index: 5;
+        overflow: hidden;
+        width: 30px;
+        height: 25px;
+        border: 0;
+        background: #fff url(images/search-submit.jpg) no-repeat 0 -5px;
+        text-indent: -9999px;
+        text-transform: uppercase;
+        cursor: pointer;
+        /* IE hack so the input recognises the text-indent... Don't ask me why!? */
+    }
+
+#footer-details {
+    display: block;
+    float: left;
+    clear: both;
+    margin: 20px 0 0;
+    padding: 20px 0 0;
+    width: 100%;
+    border-top: 1px solid #afafaf;
+}
+
+/* 7.0 */
+
+
+
+
+/*.downloadReleaseOld1
+{
+    position: relative;
+        margin: 20px 0px 0px 0px;
+        padding: 8px 52px 8px 16px;
+        color: #fff;
+        font-size: .8em;
+        font-weight: bold;
+        -webkit-text-shadow: 1px 1px 1px rgba(0,0,0,0.50);
+        /*text-shadow: 1px 1px 1px rgba(0,0,0,0.50);*/
+/*background: #ffb42c;
+        background: -moz-linear-gradient(top, #ffb42c 0%, #ff8c20 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb42c), color-stop(100%,#ff8c20));
+        background: -webkit-linear-gradient(top, #ffb42c 0%,#ff8c20 100%);
+        background: -o-linear-gradient(top, #ffb42c 0%,#ff8c20 100%);
+        background: -ms-linear-gradient(top, #ffb42c 0%,#ff8c20 100%);
+        border: 1px solid #d16d00;
+        border-radius: 15px;
+        width: 125px;*/
+/*padding: 7px;
+        
+}*/
+
+a.find-out span.arrow,
+a.download span.arrow {
+    position: absolute;
+    top: 6px;
+    right: 16px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(images/more-arrow.png) no-repeat 0 0;
+}
+
+a.download span.arrow {
+    top: 7px;
+}
+
+p:empty {
+    display: none;
+}
+
+/* 8.0 */
+#breadcrumbs {
+}
+    /*#breadcrumbs a {
+	color:#444;
+}*/
+    #breadcrumbs p span.separator {
+        padding: 0 10px;
+    }
+
+    #breadcrumbs p span.current-item {
+        color: #258cef;
+        font-weight: bold;
+    }
+
+
+
+/* 9.0 */
+/* 10.0*/

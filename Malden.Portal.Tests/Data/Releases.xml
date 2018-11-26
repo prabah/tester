@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Releases>
+  <Release id="07A067E0-935C-DF63-1E3F-B71A378C34F3" productId="056EBFA9-AC74-A8A5-1492-365D5E3B7947" major="5" minor="1" build="1" revision="0" dor="2012/12/03" />
+  <Release id="35337394-06DD-2FB7-DE05-2AE85F0BF5E3" productId="FFF4C424-F3B3-607F-818C-51B4FF86F6CF" major="4" minor="2" build="3" revision="13" dor="2012/08/13" />
+  <Release id="1624F756-5394-E02C-07FA-57057B5D988B" productId="FDE68D1B-B586-4E95-FFC3-06C12FFAEA0D" major="3" minor="4" build="24" revision="353" dor="2012/09/02" />
+  <Release id="62E10BEE-FB57-27F8-0DE9-4616D48B8B4F" productId="ED0286AF-B2D3-CAE6-3115-731A91C2D8FB" major="4" minor="2" build="23" revision="564" dor="2013/07/03" />
+  <Release id="8FF295C4-D8B1-6325-4879-9348EEE446FD" productId="E41C6C8B-5EF4-8547-1788-4AB395246FD4" major="3" minor="3" build="213" revision="2314" dor="2013/02/22" />
+  <Release id="35337394-06DD-2FB7-DE05-2AE85F0BF5E3" productId="056EBFA9-AC74-A8A5-1492-365D5E3B7947" major="1" minor="1" build="3" revision="42" dor="2012/02/25" />
+  <Release id="980349E1-1016-B8A5-0A6D-E01018D6BF64" productId="056EBFA9-AC74-A8A5-1492-365D5E3B7947" major="5" minor="2" build="133" revision="24" dor="2012/06/03" />
+  <Release id="B0BCEB8A-583F-9ECE-AE90-C6E5F612F3CB" productId="E41C6C8B-5EF4-8547-1788-4AB395246FD4" major="6" minor="1" build="1313" revision="242" dor="2012/07/18" />
+  <Release id="FB5BA045-CBA6-44C5-958D-CDA1CEC371A7" productId="E41C6C8B-5EF4-8547-1788-4AB395246FD4" major="2" minor="1" build="1333" revision="242" dor="2012/04/10" />
+  <Release id="1C71875C-D725-0EC3-CD64-78492A14D60E" productId="056EBFA9-AC74-A8A5-1492-365D5E3B7947" major="2" minor="1" build="3" revision="113" dor="2012/05/22" />
+</Releases> 

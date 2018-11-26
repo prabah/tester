@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Malden.Portal.Service.WebNew.MaldenService" CodeBehind="MaldenService.svc.cs" %>

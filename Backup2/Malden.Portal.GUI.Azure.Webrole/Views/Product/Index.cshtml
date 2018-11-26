@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Malden.Portal.BLL.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Products</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+
+<div class="list">
+    <div class="contents">
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ContainerName)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.ActionLink(item.Name, "IndexByProduct", "Release", new { id = item.FulfilmentId } , null) 
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ContainerName)
+                    </td>
+                    <td class="last-cell">
+                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    
+                    <a href="@Url.Action("Delete")" class="deleteProduct" data-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+    @Html.Partial("_confirmDialog")
+</div>
+

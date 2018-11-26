@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7FF75C35-7057-4E29-B67D-6DC18C711362}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Malden.Portal.BLL</RootNamespace>
+    <AssemblyName>Malden.Portal.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.WindowsAzure.Storage, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Microsoft.WindowsAzure.Storage.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BlobItemBlobs.cs" />
+    <Compile Include="BlobManager.cs" />
+    <Compile Include="BlobManagerLogic.cs" />
+    <Compile Include="CloudFile.cs" />
+    <Compile Include="CloudFilesCollection.cs" />
+    <Compile Include="Distributor.cs" />
+    <Compile Include="DistributorLogic.cs" />
+    <Compile Include="EmailerLogic.cs" />
+    <Compile Include="Exceptions.cs" />
+    <Compile Include="History.cs" />
+    <Compile Include="HistoryLogic.cs" />
+    <Compile Include="IBlobManagerLogic.cs" />
+    <Compile Include="IBlobItem.cs" />
+    <Compile Include="IDistributorLogic.cs" />
+    <Compile Include="IEmailerLogic.cs" />
+    <Compile Include="IHistoryLogic.cs" />
+    <Compile Include="IMaintenanceContractLogic.cs" />
+    <Compile Include="IProductCatalogueLogic.cs" />
+    <Compile Include="IReleaseLogic.cs" />
+    <Compile Include="IProductLogic.cs" />
+    <Compile Include="IUserLogic.cs" />
+    <Compile Include="MaintenanceContract.cs" />
+    <Compile Include="MaintenanceContractLogic.cs" />
+    <Compile Include="ProductCatalogue.cs" />
+    <Compile Include="ProductCatalogueLogic.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Release.cs" />
+    <Compile Include="ReleaseLogic.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="UserLogic.cs" />
+    <Compile Include="UserPurchase.cs" />
+    <Compile Include="IUserPurchaseLogic.cs" />
+    <Compile Include="Utilities\ErrorLogger.cs" />
+    <Compile Include="Utilities\PwResolver.cs" />
+    <Compile Include="ProductLogic.cs" />
+    <Compile Include="UserPurchaseLogic.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Malden.Portal.Contracts\Malden.Portal.Data.csproj">
+      <Project>{37f5afcb-3646-4c7b-94f6-a8ac5f5aed34}</Project>
+      <Name>Malden.Portal.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

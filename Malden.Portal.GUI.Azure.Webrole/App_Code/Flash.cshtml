@@ -1,0 +1,24 @@
+﻿@helper FlashMessage(IEnumerable<KeyValuePair<string, object>> tempData)
+{
+    var flash = tempData.Where(item => item.Key.StartsWith("flash-"))
+        .Select(item => 
+            new { Message = item.Value, ClassName = item.Key }).FirstOrDefault();
+    if (flash != null)
+    {
+    <script type="text/javascript">
+        $(function () {
+            var $flash = $('<div id="flash" style="display:none;">');
+            $flash.html('@flash.Message');
+            //$flash.toggleClass('flash');
+            $flash.toggleClass('@flash.ClassName');
+            $('body').prepend($flash);
+            $flash.slideDown('slow');
+            $flash.click(function () { $(this).slideToggle('highlight'); });
+
+            $('#flash').delay(400).fadeIn('normal', function () {
+                $(this).delay(2500).fadeOut();
+            });
+        });
+    </script>
+    }
+}

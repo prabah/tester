@@ -1,0 +1,93 @@
+﻿@model Malden.Portal.GUI.Azure.Webrole.Models.Users.AccountModel
+
+@{
+    ViewBag.Title = "Register";
+}
+
+@if (ViewBag.RegisterAsADistributor != null)
+{
+    <h2>@ViewBag.RegisterAsADistributor</h2>
+}
+
+<section id="loginForm">
+    <span id="user"></span>
+    <div style="clear: both; min-height: 100px;"></div>
+    <div id="member-login">
+        @using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl }))
+        {
+            <fieldset class="login">
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+                <legend></legend>
+                <ol>
+                    <li>
+                        @Html.LabelFor(m => m.Email)
+                        @Html.TextBoxFor(m => m.Email, new { autocomplete = "off", @class = "user-input", @placeholder = "Email" })
+
+                        <div>
+                            @Html.ValidationMessageFor(m => m.Email)
+                        </div>
+                        <div id="email-exists" class="field-validation-error">
+                            @*@Html.ValidationMessageFor(m => m.Email)*@
+                        </div>
+                    </li>
+
+                    <li>
+                        @Html.LabelFor(m => m.Name)
+                        @Html.TextBoxFor(m => m.Name, new { autocomplete = "off", @class = "user-input", @placeholder = "Name" })
+                        <div>
+                            @Html.ValidationMessageFor(m => m.Name)
+                        </div>
+                    </li>
+
+                    <li>
+                        @Html.LabelFor(m => m.Company)
+                        @Html.TextBoxFor(m => m.Company, new { autocomplete = "off", @class = "user-input", @placeholder = "Company" })
+
+                        <div>
+                            @Html.ValidationMessageFor(m => m.Company)
+                        </div>
+                    </li>
+
+                    <li>
+                        @Html.LabelFor(m => m.Password)
+                        @Html.PasswordFor(m => m.Password,
+                        new
+                        {
+                            title = "Password should be 8 characters minimum and must contain at least 1 uppercase, 1 lowercase, 1 number and 1 special character",
+                            @class = "user-inputpassword",
+                            @placeholder = "Password"
+                        })
+                        <div>
+                            @Html.ValidationMessageFor(m => m.Password)
+                        </div>
+                    </li>
+                    <li>
+                        @Html.LabelFor(m => m.ConfirmPassword)
+                        @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "user-input", @placeholder = "Confirm Password" })
+
+                        <div>
+                            @Html.ValidationMessageFor(m => m.ConfirmPassword)
+                        </div>
+                    </li>
+
+                    <li class="right-aligned">
+                        <input id="registerButton" type="submit" value="Register" />
+                        @*<span class="arrow"></span>*@
+                    </li>
+                </ol>
+
+            </fieldset>
+        }
+    </div>
+</section>
+
+@section Scripts {
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready((function () {
+            $("#Password").tooltip();
+        }));
+    </script>
+}

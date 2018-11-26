@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - Malden Software</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+
+    @*@Styles.Render("~/Content/css")*@
+    @Styles.Render("~/Content/Custom/webstyles.css?v=21911")
+    @Styles.Render("~/Content/Custom/CustomStyles.css?v=21911")
+    @Styles.Render("~/Content/themes/base/css?v=21911")
+    <link href="~/Content/Custom/jquery.rcrumbs.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+
+    @RenderSection("scriptsPre", false)
+    <script src="~/Scripts/Custom/app-insight.js"></script>
+
+</head>
+<body>
+    <div id="wrap">
+        <div id="wrap-inner">
+
+            <div id="header">
+                <div id="header-banner">
+                    <div id="header-center">
+                        <a href="http://www.malden.co.uk/" title="Malden" id="logo">Malden</a>
+                        <div id="authentication-panel">
+                            @if (Request.IsAuthenticated && ViewBag.RegisterForm == null)
+                            {
+                                <div style="text-align: right; color: #5E5E5E">
+
+                                    @if (@Session.Keys.Count > 0 && @Session["DemoDatabse"] != null)
+                                    {
+                                        <span class="demo-db">@Session["DemoDatabse"].ToString()</span>
+                                    }
+                                    <strong>@Html.Encode(User.Identity.Name)</strong>
+                                    <br />
+                                    @Html.ActionLink("Sign Out", "Logout", "Account", null, new { @class = "logout" })
+                                </div>
+                            }
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END #header -->
+
+            <div id="content">
+                @Html.Partial("_HeaderMenu")
+                <div class="rcrumbs" id="breadcrumbs">
+                    @*<ul>
+                            <li><a href="#">Home</a><span class="divider">></span></li>
+                            <li><a href="#">Products</a><span class="divider">></span></li>
+                            <li><a href="#">Releases</a><span class="divider">></span></li>
+                            <li class="show"><a href="#">Releases</a><span class="divider">></span></li>
+                        </ul>*@
+                </div>
+
+                @RenderSection("featured", required: false)
+                <section class="content-wrapper main-content clear-fix">
+                    @RenderBody()
+                </section>
+
+                @Flash.FlashMessage(TempData)
+            </div>
+            <!-- END #content -->
+        </div>
+        <!-- END #main -->
+    </div>
+    <!-- END #wrap -->
+    <div id="footer">
+        @Html.Partial("_Footer")
+    </div>
+    <!-- END #footer -->
+    @Scripts.Render("~/bundles/jquery")
+
+    @Scripts.Render("~/bundles/modernizr")
+    @*@Scripts.Render("~/bundles/custom")*@
+
+    @RenderSection("scripts", required: false)
+
+    <script src="~/Scripts/jquery-ui-1.10.3.min.js?v=15414"></script>
+    <script src="~/Scripts/jquery.maskedinput-1.3.1.js?v=15414"></script>
+    <script src="~/Scripts/Custom/custom-functions.js?v=27815"></script>
+
+    <script src="~/Scripts/Custom/jquery.rcrumbs.js?v=15414"></script>
+    <script src="~/Scripts/Custom/app-insight.js?v=15414"></script>
+
+    @Scripts.Render("~/bundles/jquery/custom")
+</body>
+
+
+
+</html>
